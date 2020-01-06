@@ -1,0 +1,83 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+header, footer{
+  background-color: #0c2f49;
+}
+
+header {
+  padding: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+footer {
+  padding: 5px;
+  text-align: right;
+  padding-right: 1rem;
+}
+
+.footer_p {
+  font-size: 1rem;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.1rem;
+  padding-bottom: 2.5rem;
+}
+
+.grid-container--godpages{
+  display: grid;
+}
+
+@media screen and (min-width: 65em) {
+  .grid-container--godpages{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid-item {
+  /* border: 1px solid red; */
+  padding-bottom: 0;
+  background-color: #11476f;
+}
+
+
+.item-2 {
+  padding: 1rem;
+  justify-content: center;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+a:link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #fff;
+}
